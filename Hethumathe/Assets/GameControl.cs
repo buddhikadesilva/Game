@@ -101,7 +101,7 @@ public class GameControl : MonoBehaviour {
 
 	public void RestartGame()
 	{
-		SceneManager.LoadScene ("Scene01");
+		SceneManager.LoadScene ("save");
 	}
 
 }
