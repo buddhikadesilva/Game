@@ -53,8 +53,11 @@
   <ItemGroup>
      <Compile Include="Assets\DinoControl.cs" />
      <Compile Include="Assets\GameControl.cs" />
+     <Compile Include="Assets\Manu\manu.cs" />
      <Compile Include="Assets\MoveLeftCycle.cs" />
      <Compile Include="Assets\ObstacleControl.cs" />
+     <Compile Include="Assets\Splash\MainAudio.cs" />
+     <Compile Include="Assets\Splash\SplashFade.cs" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">

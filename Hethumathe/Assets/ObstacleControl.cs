@@ -18,7 +18,7 @@ public class ObstacleControl : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D col)
 	{
-		if (col.gameObject.name.Equals ("body"))
+		if (col.gameObject.name.Equals ("bodyUp"))
 			GameControl.instance.DinoHit ();
 	}
 

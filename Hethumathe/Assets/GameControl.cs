@@ -94,7 +94,7 @@ public class GameControl : MonoBehaviour {
 	void IncreaseYourScore()
 	{
 		if (Time.unscaledTime > nextScoreIncrease) {
-			yourScore += 1;
+			yourScore += 20;
 			nextScoreIncrease = Time.unscaledTime + 1;
 		}
 	}
